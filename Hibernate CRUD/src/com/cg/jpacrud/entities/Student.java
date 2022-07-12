@@ -1,7 +1,6 @@
 package com.cg.jpacrud.entities;
 import java.io.Serializable;
 
-
 import javax.persistence.*;
 @Entity
 @Table(name="student")

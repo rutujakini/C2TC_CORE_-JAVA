@@ -2,6 +2,7 @@ package com.cg.jpacrud.service;
 
 import com.cg.jpacrud.dao.StudentDao;
 
+
 import com.cg.jpacrud.dao.StudentDaoImp1;
 import com.cg.jpacrud.entities.Student;
 
@@ -48,3 +49,19 @@ public Student findStudentById(int id) {
 	return student;
 }
 }
+
+
+/*
+create database demo;
+use demo;
+create table student(
+studentId INT NOT NULL,
+ name VARCHAR(45) NOT NULL,
+
+ PRIMARY KEY (studentId)
+
+);
+
+select * from student;
+insert into student values(20,"Disha"); 
+*/
